@@ -31,6 +31,9 @@ header{
     color: white;
     margin-top: 20px;
 }
+.btn-header img{
+    display: none;
+}
 .div2-header{
     display: flex;
     flex-direction: column;
@@ -49,6 +52,57 @@ header{
     text-align: center;
     border: none;
     border-radius: 10px;
+}
+.section-1{
+    margin-top: 200px;
+}
+.blue-sect1{
+    color: #1178B2;
+    width: auto;
+}
+.all-gap-sect1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.all-gap-sect1 p{
+    width: 450px;
+}
+.all-gap-sect1 button{
+    width: 326px;
+    height: 50px;
+    background-color: #07AF91;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.column-sect1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.all-gap2-sect1{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.all-gap2-sect1 p{
+    width: 450px;
+}
+.all-gap2-sect1 button{
+     width: 326px;
+    height: 50px;
+    background-color: #07AF91;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.column2-sect1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 243px;
+}
+.none1{
+    display: none;
 }
 @media (max-width:510px){
     .glavdiv-header{
@@ -72,5 +126,29 @@ header{
     .div2-header h1{
         width: 346px;
         text-align: center;
+    }
+    .column-sect1{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .none1{
+        display: block;
+    }
+    .lat{
+        display: none;
+    }
+    .column2-sect1{
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .column2-sect1 button{
+        margin: auto;
+    }
+    .column-sect1 button{
+        margin: auto;
     }
 }
