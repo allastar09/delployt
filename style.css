@@ -271,6 +271,98 @@ header{
     row-gap: 20px;
     border-radius: 20px;
 }
+
+
+
+
+
+
+
+
+
+
+
+.section-modules{
+    width: 90%;
+    margin: 50px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.module-card{
+    width: 100%;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.05);
+}
+
+.module-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.module-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.module-title span{
+    color: #2F80ED;
+    font-weight: 700;
+}
+
+.module-title p{
+    font-size: 18px;
+    color: #222;
+}
+
+.circle{
+    min-width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: #2F80ED;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+
+.module-content{
+    margin-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.module-content p{
+    color: #777;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.blue{
+    color: #2F80ED !important;
+}
+
+.demo .module-title{
+    justify-content: center;
+}
 @media (max-width:510px){
     .glavdiv-header{
         width: 100%;
@@ -357,6 +449,40 @@ header{
         display: flex;
         gap: 20px;
         flex-wrap: nowrap;
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+    .section-modules{
+        width: 95%;
+    }
+
+    .module-card{
+        padding: 15px;
+    }
+
+    .module-header{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .module-title{
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .module-title p{
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .module-card open{
         width: 90%;
     }
 }
