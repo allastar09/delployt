@@ -363,6 +363,88 @@ header{
 .demo .module-title{
     justify-content: center;
 }
+.section-7{
+    background-image: url(./images/Group\ 796.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.polovina1-sect7{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    color: white;
+}
+.polovina1-sect7 h2{
+    width: 350px;
+}
+.polovina1-sect7 p{
+    width: 400px;
+}
+.polovina1-sect7 button{
+    width: 300px;
+    height: 50px;
+    background-color: #07AF91;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+}
+.polovina2-sect7{
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: 20px;
+    row-gap: 10px;
+}
+.safed1-sect7 {
+    width: 200px;
+    height: 111px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #00000040;
+}
+.safed1-sect7 img{
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.section-8{
+    margin-top: 100px;
+}
+.all-card-sect8{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.card1-sect8{
+    width: 350px;
+    height: 280px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px #00000017;
+    flex-direction: column;
+    row-gap: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+}
+.all-card-sect8 h1{
+    font-size: 70px;
+}
+.card1-sect8 p{
+    width: 250px;
+    margin: auto;
+    padding-top: 20px;
+}
+.card1-sect8 h2{
+    padding-top: 30px;
+}
 @media (max-width:510px){
     .glavdiv-header{
         width: 100%;
